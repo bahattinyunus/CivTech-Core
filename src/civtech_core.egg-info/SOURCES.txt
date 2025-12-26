@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/civtech_core/__init__.py
+src/civtech_core.egg-info/PKG-INFO
+src/civtech_core.egg-info/SOURCES.txt
+src/civtech_core.egg-info/dependency_links.txt
+src/civtech_core.egg-info/top_level.txt

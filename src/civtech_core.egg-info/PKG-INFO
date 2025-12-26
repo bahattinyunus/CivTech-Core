@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: civtech-core
+Version: 0.1.0
+Summary: The foundational core for CivTech applications.
+Home-page: https://github.com/bahattinyunus/CivTech-Core
+Author: Bahattin Yunus Çetin
+Author-email: bahattinyunus@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bahattinyunus/CivTech-Core/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🏙️ CivTech-Core
+
+![Status](https://img.shields.io/badge/SYSTEM-ONLINE-success?style=for-the-badge&logo=prometheus&logoColor=white)
+![Security](https://img.shields.io/badge/SECURITY-MAXIMUM-blue?style=for-the-badge&logo=shield)
+![Version](https://img.shields.io/badge/VERSION-0.1.0_ALPHA-orange?style=for-the-badge)
+
+```text
+    .d8888b.  d8b                  88888888888               888      
+   d88P  Y88b Y8P                      888                   888      
+   888    888                          888                   888      
+   888        888 888  888             888   .d88b.  .d8888b 88888b.  
+   888        888 888  888             888  d8P  Y8b d88P"   888 "88b 
+   888    888 888 Y88  88P             888  88888888 888     888  888 
+   Y88b  d88P 888  Y8bd8P              888  Y8b.     Y88b.   888  888 
+    "Y8888P"  888   Y88P               888   "Y8888   "Y8888P 888  888 
+```
+
+> **"The Operating System for the Next Civilization."**
+
+## 🌐 System Overview
+**CivTech-Core** is an advanced, modular framework designed to manage the digital infrastructure of future smart cities. It integrates governance, logistics, and resource allocation into a unified "Civil Kernel".
+
+### ⚡ Core Modules
+| Module ID | Description | Status |
+|-----------|-------------|--------|
+| `kernel`  | Central processing unit for civic data. | 🟢 Active |
+| `gov_net` | Decentralized decision-making protocol. | 🟡 Loading |
+| `eco_sync`| Automated resource distribution algorithm.| 🔴 Offline |
+
+## 🚀 Initialization
+To boot the system, run the genesis sequence:
+
+```bash
+python scripts/genesis.py
+```
+
+## 🔐 Clearance Level
+Unauthorized access to this repository is monitored by the **Cyber-Defense Grid**. Proceed with caution.
+
+---
+*CivTech Systems © 2025. Built for the Future.*
+
+
