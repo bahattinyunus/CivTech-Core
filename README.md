@@ -66,6 +66,32 @@ CivTech-Core, ölçeklenebilir ve güvenli, katmanlı bir yazılım mimarisine s
 
 ---
 
+## 🏗️ Teknoloji Yığını ve Altyapı (Technology Stack)
+
+CivTech-Core, endüstriyel sağlamlık ve akademik derinliği bir araya getiren "Best-in-Class" teknolojiler üzerine inşa edilmiştir.
+
+### 💻 Core & Backend
+*   **Dil:** Python 3.9+ (Type Hinting, AsyncIO)
+*   **Bilimsel Hesaplama:** NumPy, SciPy, Pandas
+*   **Paralel İşleme:** Dask, Ray (Büyük veri setleri için dağıtık hesaplama)
+
+### 🧠 AI & Machine Learning Engine
+*   **Deep Learning:** PyTorch, TensorFlow
+*   **Explainable AI (XAI):** SHAP, Lime (Karar mekanizmalarının şeffaflığı için)
+*   **Computer Vision:** OpenCV, YOLOv8 (Şantiye güvenliği ve hasar tespiti için)
+
+### 🔌 Entegrasyon ve Uyumluluk (Interoperability)
+CivTech-Core, kapalı bir kutu değil, mevcut ekosistemle konuşan bir köprüdür.
+
+| Platform | Entegrasyon Teknolojisi | Kullanım Amacı |
+| :--- | :--- | :--- |
+| **Autodesk Revit** | PyRevit, Dynamo | BIM modellerinden otomatik veri çekme ve geometri oluşturma. |
+| **Rhino / Grasshopper** | Rhino.Python, GhPython | Parametrik tasarım ve karmaşık yüzey optimizasyonu. |
+| **SAP2000 / ETABS** | CSi API | Yapısal analiz sonuçlarının otomatik doğrulanması. |
+| **IoT Cloud** | MQTT, REST API | Sensör verilerinin buluta aktarımı ve gerçek zamanlı izleme. |
+
+---
+
 ## 🚀 Başlangıç Rehberi
 
 Bu "Mühendislik Komuta Merkezi"ne katılmak ve kendi makinenizde çalıştırmak için aşağıdaki teknik adımları takip ediniz.
@@ -121,6 +147,26 @@ CivTech-Core yaklaşımının neden devrim niteliğinde olduğunu gösteren para
 
 ---
 
+## 🗺️ Gelecek Yol Haritası (Roadmap)
+
+Sadece koda değil, bir vizyona yatırım yapıyoruz.
+
+### Faz 1: Temel Atma (Mevcut Durum)
+- [x] Çekirdek modüllerin (AI, BIM, IoT) mimari tasarımı.
+- [x] Temel algoritmaların (Genetik Algoritma, YZ Tahmin) implementasyonu.
+- [x] Açık kaynak topluluğu için dokümantasyonun hazırlanması.
+
+### Faz 2: Otonomlaşma (2025 Q3 - 2026 Q1)
+- [ ] **Canlı Şantiye Testleri:** IoT modülünün gerçek binalarda pilot uygulaması.
+- [ ] **SaaS Dönüşümü:** Yerel çalışan kodların bulut tabanlı bir platforma taşınması.
+- [ ] **AR/VR Entegrasyonu:** Şantiye yöneticileri için Artırılmış Gerçeklik (HoloLens) arayüzleri.
+
+### Faz 3: Ekosistem ve Standartlaşma (2026+)
+- [ ] **CivTech Marketplace:** Üçüncü parti geliştiricilerin kendi modüllerini ekleyebileceği bir eklenti mağazası.
+- [ ] **Global Standartlar:** "Akıllı Yapı Sertifikasyonu" için uluslararası standartların belirlenmesi.
+
+---
+
 ## 🤝 Katkıda Bulunma Protokolü
 
 Bu proje, açık kaynak felsefesine sıkı sıkıya bağlıdır ve kolektif zeka ile güçlenir. Küresel mühendislik topluluğunun her türlü katkısına açıktır.
@@ -132,7 +178,21 @@ Bu proje, açık kaynak felsefesine sıkı sıkıya bağlıdır ve kolektif zeka
 
 ---
 
-## 📜 Yasal Uyarı ve Lisans
+## �‍💻 Mimar ve Geliştirici Hakkında
+
+**Bahattin Yunus Çetin**
+*IT Architect*
+
+Bu proje, inşaat mühendisliği disiplinini modern yazılım mimarileriyle yeniden yorumlayan bütüncül bir vizyonun eseridir. Trabzon'un Of ilçesinde üniversite eğitimine devam eden Bahattin Yunus Çetin, akademik çalışmalarını profesyonel "IT Architect" yetkinlikleriyle harmanlayarak, inşaat teknolojileri (CivTech) alanında sektörel dönüşüme öncülük eden sistemler tasarlamaktadır.
+
+Geleneksel mühendislik formasyonunu ileri düzey yazılım mühendisliği pratikleriyle birleştirerek, sadece çalışan kodlar değil, sürdürülebilir ve ölçeklenebilir dijital ekosistemler inşa etmeyi hedeflemektedir.
+
+*   🌐 **GitHub:** [bahattinyunus](https://github.com/bahattinyunus)
+*   👔 **LinkedIn:** [Bahattin Yunus Çetin](https://www.linkedin.com/in/bahattinyunus/)
+
+---
+
+## �📜 Yasal Uyarı ve Lisans
 
 Bu proje, **MIT Lisansı** altında özgür yazılım olarak sunulmaktadır.
 Kodların eğitim, araştırma ve kişisel gelişim amaçlı kullanımı tamamen serbesttir ve teşvik edilir. Ancak, gerçek dünya inşaat projelerinde (**özellikle can güvenliğini doğrudan ilgilendiren kritik statik hesaplamalarda**) kullanıldığında, tüm sorumluluk uygulayıcı mühendise aittir. Yazılım, yetkin bir mühendisin denetimi ve onayı olmaksızın nihai karar verici mekanizma olarak kullanılmamalıdır.
