@@ -10,19 +10,19 @@
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/bahattinyunus/CivTech-Core)
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000?style=for-the-badge)](https://github.com/psf/black)
 
-**CivTech-Core**, geleneksel inşaat mühendisliği disiplinlerini modern bilgisayar bilimleri teknolojileriyle (**Yapay Zeka, Nesnelerin İnterneti, Büyük Veri Analitiği**) birleştiren, açık kaynaklı, yeni nesil bir mühendislik çekirdeğidir. Bu depo, betonarme yapıların statik hesaplamalarından şantiye yönetimindeki lojistik akışlara kadar her adımı dijitalleştirmeyi amaçlayan bir "İşletim Sistemi" vizyonu taşır.
+**CivTech-Core**, geleneksel inşaat mühendisliği disiplinlerini modern bilgisayar bilimleri teknolojileriyle (**Yapay Zeka, Nesnelerin İnterneti, Büyük Veri Analitiği, Bulut Bilişim**) birleştiren, açık kaynaklı, yeni nesil bir mühendislik çekirdeğidir. Bu depo, betonarme yapıların statik hesaplamalarından şantiye yönetimindeki lojistik akışlara, malzeme biliminden kentsel planlamaya kadar inşaat sektörünün her adımını dijitalleştirmeyi amaçlayan, bütünleşik bir "İnşaat İşletim Sistemi" (Construction OS) vizyonu taşır. Bizler, inşaat sahasını sadece fiziksel bir üretim alanı olarak değil, sürekli veri üreten ve bu verilerle optimize edilen karmaşık bir siber-fiziksel sistem olarak tanımlıyoruz.
 
-Sadece bir kod kütüphanesi değil; mühendislerin "akıllı şehirler" ve "otonom yapılar" çağına geçişi için gerekli olan entelektüel ve teknik altyapıyı sunan yaşayan bir ekosistemdir. Geleceğin şehirlerini inşa etmek için gereken dijital tuğlaları burada kodluyoruz.
+Bu proje, sadece bir kod kütüphanesi veya araç seti değildir; mühendislerin "akıllı şehirler", "otonom yapılar" ve "kendi kendini onaran malzemeler" çağına geçişi için gerekli olan entelektüel ve teknik altyapıyı sunan yaşayan bir ekosistemdir. Geleceğin şehirlerini inşa etmek için gereken dijital tuğlaları burada kodluyoruz. **CivTech-Core**, mühendisliği hesap makinesinden kurtarıp, algoritmaların ve yapay zekanın gücüyle yeniden donatmayı hedefler.
 
 ---
 
 ## 🎯 Misyon ve Vizyon: Mühendisliğin Yeni Çağı
 
-### Statik Dünyadan Dinamik Evrene Geçiş
-Geleneksel inşaat mühendisliği, yüzyıllardır büyük ölçüde deterministik hesaplamalara, statik güvenlik katsayılarına ve manuel iterasyonlara dayanmaktadır. Ancak içinde yaşadığımız modern dünya karmaşık, dinamik ve veri doludur. **CivTech-Core**, mühendisliği "yapı inşa etmekten" öteye taşıyarak, yapıları "yaşayan, veri üreten ve kararlar alabilen organizmalar" olarak ele alır. Amacımız, betonun fiziksel dayanıklılığını, kodun sonsuz esnekliği ile birleştirmektir.
+### Statik Dünyadan Dinamik Evrene Geçiş: Determinizmin Sonu
+Geleneksel inşaat mühendisliği, yüzyıllardır büyük ölçüde deterministik hesaplamalara, aşırı güvenli kabul edilen statik katsayılara ve manuel, hataya açık iterasyonlara dayanmaktadır. Newton mekaniğinin güvenli limanlarında kalmak artık yeterli değildir. İçinde yaşadığımız modern dünya karmaşık, dinamik, stokastik ve veri doludur. **CivTech-Core**, mühendisliği "bir defaya mahsus yapı inşa etmekten" öteye taşıyarak, yapıları "yaşayan, veri üreten, öğrenen, adapte olan ve kararlar alabilen organizmalar" olarak ele alır. Amacımız, betonun fiziksel dayanıklılığını, kodun sonsuz esnekliği ve zekası ile birleştirmektir.
 
-### Veri Egemenliği (Data Sovereignty) ve Dijital İkizler
-Vizyonumuz, fiziksel dünyadaki her bir kolonun, kirişin ve sensörün siber uzayda yaşayan, nefes alan birer dijital ikizini (Digital Twin) oluşturmaktır. Bu sayede, deprem anında saniyeler içinde hasar tespiti yapan algoritmalar, şantiyede malzeme israfını sıfıra indiren otonom botlar ve enerji verimliliğini maksimize eden adaptif cephe sistemleri birer hayal olmaktan çıkıp endüstri standardı haline gelecektir. Biz, inşaat sektörünün **"Dijital Rönesansı"**nı başlatıyoruz.
+### Veri Egemenliği (Data Sovereignty) ve Dijital İkizler (Digital Twins)
+Vizyonumuzun kalbinde, fiziksel dünyadaki her bir kolonun, kirişin, sensörün ve iş makinesinin siber uzayda yaşayan, nefes alan birer dijital ikizini (Digital Twin) oluşturmak yatar. Bu ikizler, fiziksel varlığın sadece geometrik bir kopyası değil, davranışsal ve tarihsel bir yansımasıdır. Bu sayede, deprem anında saniyeler içinde hasar tespiti yapan algoritmalar, şantiyede malzeme israfını sıfıra indiren otonom botlar ve enerji verimliliğini maksimize eden adaptif cephe sistemleri birer bilim kurgu hayali olmaktan çıkıp endüstri standardı haline gelecektir. Biz, inşaat sektörünün **"Dijital Rönesansı"**nı başlatıyor ve veriyi yeni yüzyılın çimentosu olarak ilan ediyoruz.
 
 ---
 
@@ -32,37 +32,42 @@ Bu repo, her biri spesifik bir mühendislik problemine odaklanan, modüler ve ge
 
 ### 1. 🧠 [AI-Structural-Analysis](./AI-Structural-Analysis) (Yapay Zeka Destekli Yapısal Analiz)
 
-Bu modül, klasik sonlu elemanlar yöntemini (FEM) yapay zeka ile hibritleyerek benzeri görülmemiş bir hız ve optimizasyon sunar.
-*   **Generative Design (Üretken Tasarım):** İnsan zihninin sınırlarını aşan tasarımlar için Genetik algoritmalar (Genetic Algorithms) ve topoloji optimizasyonu kullanır. Belirlenen yük koşulları, rüzgar hızı ve malzeme kısıtları altında, minimum malzeme ile maksimum dayanımı sağlayan geometriyi sistem otomatik olarak üretir. Mühendisin rolü "çizmek" değil, "sınır koşullarını belirlemek" haline gelir.
-*   **Sismik Tahmin Modelleri (ML-Based Seismic Prediction):** Geçmiş elli yılın deprem verileri (Time-History Analysis) üzerinde eğitilmiş gelişmiş Derin Öğrenme (Deep Learning) modelleri (LSTM, Transformer), yapının lineer olmayan davranışlarını ve plastikleşme noktalarını milisaniyeler içinde tahmin eder. Bu, günler süren analiz sürelerini saniyelere indirger ve acil durum senaryoları için hayati önem taşır.
+Bu modül, klasik sonlu elemanlar yöntemini (FEM) modern yapay zeka teknikleriyle hibritleyerek, hesaplamalı mühendislikte paradigma değişimi yaratır. Physics-Informed Neural Networks (PINNs) kullanarak, fizik kurallarını ihlal etmeyen yapay zeka modelleri geliştiririz.
 
-### 2. �️ [BIM-Automation](./BIM-Automation) (Yapı Bilgi Modellemesi Otomasyonu)
+*   **Generative Design & Topology Optimization (Üretken Tasarım):** İnsan zihninin önyargılı sınırlarını aşan tasarımlar için Genetik Algoritmalar (Genetic Algorithms) ve Evrimsel Stratejiler kullanır. Belirlenen yük koşulları, rüzgar hızı, malzeme kısıtları ve maliyet hedefleri altında, minimum malzeme ile maksimum dayanımı ve estetiği sağlayan geometriyi sistem otomatik olarak üretir. Mühendisin rolü "çizen teknisyen" olmaktan çıkıp, "sınır koşullarını ve hedefleri belirleyen küratör" haline gelir.
+*   **Sismik Tahmin ve Davranış Modellemesi (ML-Based Seismic Prediction):** Geçmiş yüzyılın küresel deprem verileri (Time-History Analysis) üzerinde eğitilmiş gelişmiş Derin Öğrenme (Deep Learning) modelleri (LSTM, Transformer, Graph Neural Networks), yapının lineer olmayan davranışlarını, plastikleşme noktalarını ve göçme modlarını milisaniyeler içinde tahmin eder. Bu, günler süren non-lineer zaman tanım alanlı analiz sürelerini saniyelere indirger ve acil durum tahliye senaryoları için hayati önem taşır.
 
-BIM süreçlerini manuel veri girişinin hantal yapısından kurtarıp, tam otomatik "Script-Based" bir iş akışına dönüştürür.
-*   **Computational Geometry (Hesaplamalı Geometri):** Revit ve Rhino gibi endüstri standardı yazılımlar için geliştirilen karmaşık Python betikleri (Dynamo & Grasshopper entegrasyonu), parametrik tasarımların doğrudan BIM ortamına aktarılmasını sağlar. Karmaşık cephe sistemleri, amorf kabuk yapılar veya parametrik stadyum çatıları tek bir tıklama ile modellenebilir ve revize edilebilir.
-*   **Auto-Schedule & 4D Planning:** Yapay zeka motorumuz, 3D model üzerinden anlık olarak metraj çıkarır (Quantity Take-off), maliyet analizi yapar ve şantiye iş programını (4D) optimize eder. Tedarik zinciri aksamalarını öngörerek "Just-in-Time" malzeme sevkiyatını yönetir, böylece stok maliyetlerini minimize eder.
+### 2. ️ [BIM-Automation](./BIM-Automation) (Yapı Bilgi Modellemesi Otomasyonu)
 
-### 3. 📡 [IoT-Structural-Health](./IoT-Structural-Health) (Yapısal Sağlık İzleme)
+BIM süreçlerini manuel veri girişinin hantal ve hataya açık yapısından kurtarıp, tam otomatik "Script-Based" ve "Algorithmic" bir iş akışına dönüştürür.
 
-Binaların sinir sistemini oluşturarak onları "akıllı" varlıklara dönüştürür.
-*   **Sensor Fusion (Sensör Füzyonu):** Binanın kritik noktalarına yerleştirilen ivmeölçerler, gerinim ölçerler (strain gauges) ve fiber optik sensörlerden gelen yüksek frekanslı ham veriyi Kalman Filtreleri ile işleyerek gürültüden arındırır ve anlamlı bilgiye dönüştürür.
-*   **Real-Time Fatigue Analysis (Gerçek Zamanlı Yorulma Analizi):** Yapısal elemanlardaki mikro çatlakları, korozyonu ve malzeme yorulmasını sürekli izler. Kritik eşik değerleri aşıldığında (örneğin bir deprem sonrası artçı şokta veya aşırı rüzgar yüklemesinde), bina sakinlerine veya yetkililere otomatik uyarı gönderen "Erken Uyarı Sistemi"ni barındırır.
+*   **Computational Geometry ve Parametrik Tasarım:** Revit ve Rhino gibi endüstri standardı yazılımlar için geliştirilen karmaşık Python betikleri (Dynamo & Grasshopper entegrasyonu), parametrik tasarımların doğrudan BIM ortamına aktarılmasını sağlar. Matematiksel formüllerle ifade edilebilen karmaşık cephe sistemleri, amorf kabuk yapılar veya parametrik stadyum çatıları, tek bir satır kod değişikliği ile yeniden modellenebilir.
+*   **Auto-Schedule, Cost Estimation & 4D/5D Planning:** Yapay zeka motorumuz, 3D model üzerinden anlık olarak metraj çıkarır (Quantity Take-off), dinamik piyasa verileriyle maliyet analizi yapar ve şantiye iş programını (4D) optimize eder. Tedarik zinciri aksamalarını simüle ederek ve  öngörerek "Just-in-Time" malzeme sevkiyatını yönetir, böylece stok maliyetlerini ve saha kaosunu minimize eder.
 
-### 4. 🎓 [Education-Curriculum](./Education-Curriculum) (Yeni Nesil Müfredat)
+### 3. 📡 [IoT-Structural-Health](./IoT-Structural-Health) (Yapısal Sağlık İzleme ve SHM)
 
-Sadece bugünü değil, geleceği de inşa etmek için mühendislik eğitiminde radikal bir reform paketi sunar.
-*   **First Principles Thinking:** Mühendislik problemlerini ezber formüllerle (Black Box) çözmeyi reddeder; bunun yerine fiziksel temel prensiplerden türeterek ve Python simülasyonları ile modelleyerek (White Box) öğretir.
-*   **Interactive Notebooks:** Statik, Mukavemet, Akışkanlar Mekaniği ve Zemin Mekaniği gibi temel dersler için hazırlanmış, zenginleştirilmiş Jupyter Notebook'ları içerir. Öğrenciler diferansiyel denklemleri kağıt üzerinde değil, `SciPy` ve `NumPy` kütüphaneleri ile interaktif olarak çözer, sonuçları 3D olarak görselleştirir ve parametrelerle oynayarak fiziği hisseder.
+Binaların sinir sistemini oluşturarak onları "akıllı" ve "iletişim kurabilen" sibernetik varlıklara dönüştürür. Edge Computing prensipleriyle veriyi kaynağında işler.
+
+*   **Advanced Sensor Fusion (İleri Sensör Füzyonu):** Binanın kritik noktalarına yerleştirilen ivmeölçerler, gerinim ölçerler (strain gauges), fiber optik sensörler ve eğim ölçerlerden gelen yüksek frekanslı ham veriyi Kalman Filtreleri ve Bayesyen ağlar ile işleyerek gürültüden arındırır. Farklı sensör tiplerinden gelen veriyi birleştirerek (füzyon), tek bir sensörün veremeyeceği bütüncül bir sağlık resmi çizer.
+*   **Real-Time Fatigue & Damage Detection (Gerçek Zamanlı Hasar Tespiti):** Yapısal elemanlardaki mikro çatlakları, korozyon ilerlemesini ve malzeme yorulmasını (fatigue) sürekli izler. Kritik eşik değerleri aşıldığında (örneğin bir deprem sonrası artçı şokta veya aşırı rüzgar yüklemesinde), bina sakinlerine veya yetkililere otomatik, konum tabanlı uyarı gönderen akıllı bir "Erken Uyarı Sistemi"ni barındırır.
+
+### 4. 🎓 [Education-Curriculum](./Education-Curriculum) (Yeni Nesil Müfredat: Mühendis 4.0)
+
+Sadece bugünü değil, geleceği de inşa etmek için mühendislik eğitiminde radikal bir reform paketi sunar. "Ezberleyen değil, türeten mühendis" yetiştirmeyi hedefler.
+
+*   **First Principles Thinking & White-Box Modeling:** Mühendislik problemlerini kapalı kutu (black-box) yazılımlarla çözmeyi reddeder; bunun yerine fiziksel temel prensiplerden türeterek ve Python simülasyonları ile modelleyerek (white-box) öğretir. Öğrenci, "programın verdiği sonucun" kölesi değil, "algoritmanın efendisi" olur.
+*   **Interactive Computational Notebooks:** Statik, Mukavemet, Akışkanlar Mekaniği ve Zemin Mekaniği gibi temel dersler için hazırlanmış, zenginleştirilmiş Jupyter Notebook'ları içerir. Öğrenciler diferansiyel denklemleri kağıt üzerinde değil, `SciPy` ve `NumPy` kütüphaneleri ile interaktif olarak çözer, sonuçları 3D olarak görselleştirir ve parametrelerle oynayarak fiziği hisseder. Teorik formüller, çalışan koda dönüşür.
 
 ---
 
-## 🏛️ Sistem Mimarisi
+## 🏛️ Entegre Sistem Mimarisi (Architectural Design)
 
-CivTech-Core, ölçeklenebilir ve güvenli, katmanlı bir yazılım mimarisine sahiptir:
+CivTech-Core, yüksek ölçeklenebilirlik (Scalability), modülerlik ve güvenlik prensipleriyle tasarlanmış, çok katmanlı (Multi-Layered) bir yazılım mimarisine sahiptir:
 
-1.  **Veri Katmanı (Data Layer):** Sahadaki IoT sensörlerinden, meteoroloji istasyonlarından ve BIM modellerinden gelen heterojen verinin (CSV, JSON, SQL, Time-Series) toplandığı ve normalize edildiği katman.
-2.  **İşleme Çekirdeği (Core Processing):** Python ekosisteminin gücünü arkasına alan (Pandas, TensorFlow, PyTorch, Scikit-learn) algoritmaların çalıştığı, ham verinin stratejik bilgiye dönüştüğü analiz merkezi.
-3.  **Arayüz Katmanı (Interface Layer):** Mühendislerin sistemle etkileşime girdiği CLI (Command Line Interface), Web Dashboard'ları (React/Flask) veya BIM Eklentileri (Revit Add-ins).
+1.  **Veri Akış Katmanı (Data Ingestion Layer):** Sahadaki IoT sensörlerinden (MQTT/CoAP), meteoroloji istasyonlarından (API), İHA'lardan (Fotogrametri) ve BIM modellerinden gelen heterojen ve büyük verinin (Big Data) toplandığı, temizlendiği ve normalize edildiği katman. Apache Kafka gibi akış işleme teknolojileri kullanılır.
+2.  **Analitik Çekirdek (Core Processing Engine):** Python ekosisteminin hesaplama gücünü (Pandas, TensorFlow, PyTorch, Scikit-learn) arkasına alan, ham verinin stratejik bilgiye dönüştüğü merkezdir. Burada çalışan algoritmalar, CPU ve GPU üzerinde paralel işleme (Parallel Computing) yaparak devasa matrisleri çözer.
+3.  **Servis Katmanı (Service Layer & API):** İşlenen verinin dış dünyaya açıldığı, RESTful ve GraphQL API'larının bulunduğu katman. Mikroservis mimarisi sayesinde, her bir analiz modülü (örn. Sismik Analiz Servisi) bağımsız olarak ölçeklenebilir.
+4.  **Kullanıcı Arayüzü (Presentation Layer):** Mühendislerin sistemle etkileşime girdiği son nokta. CLI (Command Line Interface) araçları, Web tabanlı Dashboard'lar (React/Plotly) veya doğrudan BIM yazılımları (Revit/Rhino) içine gömülü eklentiler (Add-ins) olarak sunulur.
 
 ---
 
@@ -133,17 +138,19 @@ Bu "Mühendislik Komuta Merkezi"ne katılmak ve kendi makinenizde çalıştırma
 
 ---
 
-## � Karşılaştırmalı Mühendislik Tablosu
+---
 
-CivTech-Core yaklaşımının neden devrim niteliğinde olduğunu gösteren paradigmatik farklar:
+## ⚖️ Karşılaştırmalı Mühendislik Paradigması
+
+CivTech-Core yaklaşımının neden sadece bir "iyileştirme" değil, kökten bir "devrim" olduğunu gösteren paradigmatik farklar:
 
 | Özellik | Geleneksel Mühendislik Yaklaşımı | CivTech-Core (Dijital) Yaklaşımı |
 | :--- | :--- | :--- |
-| **Karar Mekanizması** | Tecrübeye dayalı sezgisel tahminler, manuel iterasyonlar ve "göz kararı" yaklaşımlar. | Büyük veri analitiği, istatistiksel modelleme ve yapay zeka destekli matematiksel optimizasyon. |
-| **Güvenlik Anlayışı** | Bilinmezliği örtmek için yüksek güvenlik katsayıları ile aşırı boyutlandırma (Over-design). | Gerçek zamanlı sensör verisi ile yapının anlık sağlık durumunu izleme, proaktif bakım ve hassas mühendislik. |
-| **Verimlilik** | Şantiye sahasında plansızlık ve hata kaynaklı %20-30'lara varan malzeme ve zaman israfı. | Generative Design ve 4D planlama ile %100 malzeme optimizasyonu, minimum atık (Zero-Waste) ve sürdürülebilirlik. |
-| **Proje Süreci** | Birbirinden kopuk, haberleşmeyen disiplinler (Mimari, Statik, Mekanik) ve versiyon karmaşası. | Tek bir merkezi dijital model (BIM) üzerinde tam entegre, disiplinlerarası, eş zamanlı çalışma. |
-| **Yapının Doğası** | İnşa edildiği gün ölmeye ve eskimeye başlayan, zamanla yorulan statik beton kütleleri. | Sensörlerle nefes alan, veri üreten, kendi durumunu raporlayan ve zamana adapte olan sibernetik yapılar. |
+| **Karar Mekanizması** | Tecrübeye dayalı sezgisel tahminler, manuel iterasyonlar ve "göz kararı" yaklaşımlar (Rule of Thumb). | Büyük veri analitiği, istatistiksel modelleme ve yapay zeka destekli matematiksel optimizasyon (Data-Driven Decision Making). |
+| **Güvenlik Anlayışı** | Bilinmezliği örtmek için keyfi yüksek güvenlik katsayıları ile aşırı boyutlandırma (Over-design) ve maliyet artışı. | Gerçek zamanlı sensör verisi ile yapının anlık sağlık durumunu izleme, proaktif bakım ve hassas mühendislik (Precision Engineering). |
+| **Verimlilik & Sürdürülebilirlik** | Şantiye sahasında plansızlık ve koordinasyonsuzluk kaynaklı %20-30'lara varan malzeme ve zaman israfı. | Generative Design ve 4D AI planlama ile %100 malzeme optimizasyonu, minimum atık (Zero-Waste) ve karbon ayak izi takibi. |
+| **Proje Süreci (Workflow)** | Birbirinden kopuk, haberleşmeyen "silo" disiplinler (Mimari, Statik, Mekanik) ve versiyon karmaşası. | Tek bir merkezi dijital model (BIM) üzerinde tam entegre, disiplinlerarası, eş zamanlı ve çakışmasız çalışma (Collaborative Engineering). |
+| **Yapının Doğası** | İnşa edildiği gün ölmeye ve eskimeye başlayan, zamanla yorulan statik beton kütleleri. | Sensörlerle nefes alan, veri üreten, kendi durumunu raporlayan ve zamana adapte olan sibernetik ve yaşayan yapılar. |
 
 ---
 
@@ -194,8 +201,17 @@ Geleneksel mühendislik formasyonunu ileri düzey yazılım mühendisliği prati
 
 ## �📜 Yasal Uyarı ve Lisans
 
-Bu proje, **MIT Lisansı** altında özgür yazılım olarak sunulmaktadır.
-Kodların eğitim, araştırma ve kişisel gelişim amaçlı kullanımı tamamen serbesttir ve teşvik edilir. Ancak, gerçek dünya inşaat projelerinde (**özellikle can güvenliğini doğrudan ilgilendiren kritik statik hesaplamalarda**) kullanıldığında, tüm sorumluluk uygulayıcı mühendise aittir. Yazılım, yetkin bir mühendisin denetimi ve onayı olmaksızın nihai karar verici mekanizma olarak kullanılmamalıdır.
+## 📜 Yasal Uyarı ve Lisans (Disclaimer & License)
+
+Bu proje, bilginin özgürleşmesi adına **MIT Lisansı** altında açık kaynak olarak sunulmaktadır.
+
+### Eğitim ve Araştırma Amaçlı Kullanım
+Kodların eğitim, akademik araştırma, tez çalışmaları ve kişisel gelişim amaçlı kullanımı tamamen serbesttir ve şiddetle teşvik edilir. Bu repoyu bir laboratuvar olarak kullanın, kırın, dökün ve yeniden yapın.
+
+### Kritik Güvenlik Uyarısı (Critical Safety Warning)
+**DİKKAT:** Bu yazılım, deneysel algoritmalar ve araştırma amaçlı geliştirilmiş yapay zeka modelleri içermektedir. Gerçek dünya inşaat projelerinde, **özellikle can güvenliğini doğrudan ilgilendiren kritik statik hesaplamalarda ve yapısal tasarımlarda**, tek başına karar verici mekanizma olarak **ASLA KULLANILMAMALIDIR.**
+
+Yazılımın ürettiği tüm sonuçlar, yetkin, lisanslı ve deneyimli bir inşaat mühendisi tarafından geleneksel yöntemlerle doğrulanmalı ve onaylanmalıdır. Yazar ve katkıda bulunanlar, yazılımın kullanımından doğabilecek maddi, manevi veya fiziksel zararlardan dolayı hiçbir yasal sorumluluk kabul etmez. Mühendislik etiği ve insan hayatı, her türlü algoritmadan önce gelir.
 
 Detaylar ve lisans metninin tamamı için [LICENSE](./LICENSE) dosyasına bakınız.
 
